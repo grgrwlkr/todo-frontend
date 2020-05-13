@@ -1,0 +1,12 @@
+<mat-selection-list>
+  <div mat-subheader>Todo items:</div>
+  <mat-list-option checkboxPosition="before">
+    <div mat-line>{{entry.title}}</div>
+    <div mat-line>{{entry.description}}</div>
+  </mat-list-option>
+  <div mat-subheader>Done items:</div>
+  <mat-list-option checkboxPosition="before" disabled="true" selected="true">
+    <div mat-line>{{entry.title}}</div>
+    <div mat-line>{{entry.description}}</div>
+  </mat-list-option>
+</mat-selection-list>
