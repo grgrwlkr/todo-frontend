@@ -8,10 +8,13 @@ import { MatSliderModule } from "@angular/material/slider";
 import { MatButtonToggleModule } from "@angular/material/button-toggle";
 import { MatButtonModule } from "@angular/material/button";
 import { MatToolbarModule } from "@angular/material/toolbar";
+import { MatIconModule } from "@angular/material/icon";
+import { ListComponent } from './components/list/list.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    ListComponent,
   ],
   imports: [
     BrowserModule,
@@ -20,7 +23,8 @@ import { MatToolbarModule } from "@angular/material/toolbar";
     MatSliderModule,
     MatButtonToggleModule,
     MatButtonModule,
-    MatToolbarModule
+    MatToolbarModule,
+    MatIconModule
   ],
   providers: [],
   bootstrap: [AppComponent]
